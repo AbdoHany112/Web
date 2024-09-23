@@ -19,46 +19,53 @@
 		<header>
 			<nav class="navbar navbar-expand-lg navbar-dark bg-blue fixed-top">
 				<div class="container-fluid">
-					<a href="../../index.html" class="navbar-brand ps-3">
-						<img src="../../images/GulliverTravellerMenu.png" alt="Logo Gulliver Traveller">
+					<a href="../index.html" class="navbar-brand ps-3">
+						<img src="../../images/Helwan travel.png" alt="Logo Gulliver Traveller">
 					</a>
-					<button type="button" class="navbar-toggler ms-auto" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+					<button type="button" class="navbar-toggler ms-auto" data-bs-toggle="collapse"
+						data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+						aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
 					</button>
 					<div class="collapse navbar-collapse justify-content-md-center" id="navbarTogglerDemo02">
 						<ul class="navbar-nav">
-							<li class="nav-item"><a href="../locadora.html" class="nav-link active">Aluguel de carros</a></li>                        
-                            <li class="nav-item"><a href="../cultura.html" class="nav-link">Cultura</a></li>
-                            <li class="nav-item"><a href="../entretenimento.html" class="nav-link">Entretenimento</a></li>
-                            <li class="nav-item"><a href="../restaurantes.html" class="nav-link">Gastronomia</a></li>
-                            <li class="nav-item"><a href="../historia.html" class="nav-link">História</a></li>
-                            <li class="nav-item"><a href="../hoteis.html" class="nav-link">Hotéis</a></li>
-                            <li class="nav-item"><a href="../parques.html" class="nav-link">Parques</a></li>
-                            <li class="nav-item"><a href="../vida_noturna.html" class="nav-link">Vida noturna</a></li>
+							<li class="nav-item"><a href="../locadora.html" class="nav-link">Car Rental</a></li>                        
+							<li class="nav-item"><a href="../cultura.html" class="nav-link">Culture</a></li>
+							<li class="nav-item"><a href="../entretenimento.html" class="nav-link">Enterainment</a></li>
+							<li class="nav-item"><a href="../restaurantes.html" class="nav-link">Gastronomy</a></li>
+							<li class="nav-item"><a href="../historia.html" class="nav-link">History</a></li>
+							<li class="nav-item"><a href="../hoteis.html" class="nav-link">Hotels</a></li>
+							<li class="nav-item"><a href="../parques.html" class="nav-link">Parks</a></li>
+							<li class="nav-item"><a href="../vida_noturna.html" class="nav-link">Night life</a></li>
 						</ul>
 					</div>
-
+	
 					<!--- Accessibility --->
-                    <div class="nav-item ps-2 pe-2">
-                        <div class="btn-group">
-                            <a href="#" class="dropdown-toggle" id="accessibility" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
-                                <i class="fas fa-universal-access"></i>
-                            </a>
-                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="accessibility">
-                                <li class="dropdown-item dark-theme">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" value="" id="chk">
-                                        <label class="form-check-label" for="chk">Contraste</label>
-                                    </div>
-                                </li>
-                                <li><a href="#" class="dropdown-item" onclick="aumenta()"><i class="bi bi-zoom-in text-end pe-1"></i>Aumenta Fonte</a></li>
-                                <li><a href="#" class="dropdown-item" onclick="diminui()"><i class="bi bi-zoom-out text-end pe-1"></i>Diminui Fonte</a></li>
-                                <li><a href="#" class="dropdown-item" onclick="dislexia()"><i class="bi bi-type pe-1"></i>Fonte Dislexia</a></li>
-                                <li><a href="#" class="dropdown-item" onclick="roboto()"><i class="bi bi-type pe-1"></i>Fonte Padrão</a></li>
-                            </ul>
-                        </div>
-                    </div>
-
+					<div class="nav-item ps-2 pe-2">
+						<div class="btn-group">
+							<a href="#" class="dropdown-toggle" id="accessibility" data-bs-toggle="dropdown"
+								data-bs-auto-close="outside" aria-expanded="false">
+								<i class="fas fa-universal-access"></i>
+							</a>
+							<ul class="dropdown-menu dropdown-menu-end" aria-labelledby="accessibility">
+								<li class="dropdown-item dark-theme">
+									<div class="form-check">
+										<input class="form-check-input" type="checkbox" value="" id="chk">
+										<label class="form-check-label" for="chk">Contrast</label>
+									</div>
+								</li>
+								<li><a href="#" class="dropdown-item" onclick="aumenta()"><i
+											class="bi bi-zoom-in text-end pe-1"></i>Increase Font</a></li>
+								<li><a href="#" class="dropdown-item" onclick="diminui()"><i
+											class="bi bi-zoom-out text-end pe-1"></i>Decrease Font</a></li>
+								<li><a href="#" class="dropdown-item" onclick="dislexia()"><i
+											class="bi bi-type pe-1"></i>Font Dislexya</a></li>
+								<li><a href="#" class="dropdown-item" onclick="roboto()"><i
+											class="bi bi-type pe-1"></i>Standard Font</a></li>
+							</ul>
+						</div>
+					</div>
+	
 					<!------- Login ------->
 					<div class="nav-item login ps-3 pe-3">
 						<a href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
@@ -68,34 +75,41 @@
 					</div>
 				</div>
 			</nav>
-
+	
 			<!----- Offcanvas ----->
 			<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
 				<div class="offcanvas-header">
 					<h5 class="offcanvas-title" id="offcanvasNavbarLabel">Login</h5>
-					<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+					<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+						aria-label="Close"></button>
 				</div>
 				<div class="offcanvas-body">
 					<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
 						<li class="nav-item" role="presentation">
-							<button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Entrar</button>
+							<button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+								data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+								aria-selected="true">Login</button>
 						</li>
 						<li class="nav-item" role="presentation">
-							<button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Cadastre-se</button>
+							<button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+								data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+								aria-selected="false">Register</button>
 						</li>
 					</ul>
 					<div class="tab-content" id="pills-tabContent">
-
+	
 						<!------ Sign in ------>
 						<div class="tab-pane fade show active" id="pills-home" role="tabpanel"
 							aria-labelledby="pills-home-tab">
 							<form method="" action="" autocomplete="off">
 								<div class="form-floating mb-3">
-									<input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" value="name@example.com">
+									<input type="email" class="form-control" id="floatingInput"
+										placeholder="name@example.com" value="name@example.com">
 									<label for="floatingInput">Email address</label>
 								</div>
 								<div class="form-floating mb-3">
-									<input type="password" class="form-control" id="floatingPassword" placeholder="Password" value="123456">
+									<input type="password" class="form-control" id="floatingPassword" placeholder="Password"
+										value="123456">
 									<label for="floatingPassword">Password</label>
 								</div>
 								<div class="text-end">
@@ -103,24 +117,27 @@
 								</div>
 							</form>
 						</div>
-
+	
 						<!------ Sign up ------>
 						<div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
 							<form method="" action="" autocomplete="off">
 								<div class="form-floating mb-3">
-									<input type="email" class="form-control" id="floatingInput" placeholder="Usuário" value="user">
+									<input type="email" class="form-control" id="floatingInput" placeholder="Usuário"
+										value="user">
 									<label for="floatingInput">User</label>
 								</div>
 								<div class="form-floating mb-3">
-									<input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" value="name@example.com">
+									<input type="email" class="form-control" id="floatingInput"
+										placeholder="name@example.com" value="name@example.com">
 									<label for="floatingInput">Email address</label>
 								</div>
 								<div class="form-floating mb-3">
-									<input type="password" class="form-control" id="floatingPassword" placeholder="Password" value="123456">
+									<input type="password" class="form-control" id="floatingPassword" placeholder="Password"
+										value="123456">
 									<label for="floatingPassword">Password</label>
 								</div>
 								<div class="text-end">
-									<button type="submit" class="btn btn-green w-50">Cadastrar</button>
+									<button type="submit" class="btn btn-primary w-50">Register</button>
 								</div>
 							</form>
 						</div>
@@ -132,13 +149,13 @@
 		<!------- Conteúdo ------->
 		<main class="main-page container">
 			<section class="mb-4">
-				<h1 class="text-center">Avis</h1>
+				<h1 class="text-center">Regus</h1>
 				<nav aria-label="breadcrumb">
 					<ol class="breadcrumb">
 						<li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
-						<li class="breadcrumb-item"><a href="../destino.html">Destino</a></li>
-						<li class="breadcrumb-item"><a href="../locadora.html">Aluguel de Carros</a></li>
-						<li class="breadcrumb-item active" aria-current="page">Avis</li>
+						<li class="breadcrumb-item"><a href="../destino.html">Destination</a></li>
+						<li class="breadcrumb-item"><a href="../locadora.html">Rental Car </a></li>
+						<li class="breadcrumb-item active" aria-current="page">Regus</li>
 					</ol>
 				</nav>
 			</section>
@@ -147,24 +164,23 @@
 				
 					<!------- Descrição ------->
 					<p class="text-left">
-                        A Avis Rent A Car System,
-                        LLC e suas subsidiárias operam uma das marcas de locação de veículos mais conhecidas do mundo,
-                        com mais de 5.000 lojas em mais de 165 países.
+                        A Avis Rent A Car System, LLC and its subsidiaries operate one of the world's most well-known car rental brands,
+						 with more than 5,000 stores in more than 165 countries.
                     </p>
 					<p class="text-left">
-						Ano após ano, a Avis é reconhecida com grandes honras de clientes satisfeitos,
-                        organizações de consumidores e associações do setor. Saiba mais.
+						Year after year, Avis is recognized with high honors from satisfied customers,
+						 consumer organizations and industry associations. Learn more.
 					</p>
 					<p class="text-left">
-						Como uma corporação internacional e uma empresa local nas regiões onde operamos,
-                        a Avis se esforça para ser um modelo de referência e ter uma forte presença de liderança na comunidade.
+						As an international corporation and a local company in the regions where we operate,
+						 Avis strives to be a role model and have a strong leadership presence in the community.
                     </p>					
 					
 					<!------ Avaliações ------>
 					<div class="row mb-4">
 						<div class="col-12">
 							<div class="d-grid gap-2 d-md-flex justify-content-md-end">
-								<button type="button" class="btn btn-green" data-bs-toggle="modal" data-bs-target="#modal-comentarios">Comentários</button>
+								<button type="button" class="btn btn-green" data-bs-toggle="modal" data-bs-target="#modal-comentarios">Comments</button>
 							</div>
 						</div>
 					</div>
@@ -174,22 +190,21 @@
 						<div class="modal-dialog modal-lg modal-dialog-scrollable">
 							<div class="modal-content">
 								<div class="modal-header">
-								  <h5 class="modal-title" id="staticBackdropLabel">Todas as avaliações</h5>
+								  <h5 class="modal-title" id="staticBackdropLabel">All Reviews</h5>
 								  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 								</div>
 								<div class="modal-body">
 									<div class="collapse" id="collapseExample">
 										<div class="form-floating">
 											<textarea class="form-control" id="floatingTextarea2"></textarea>
-											<label for="floatingTextarea2">Deixe seu comentário...</label>
+											<label for="floatingTextarea2">Leave your comment...</label>
 										</div>
 									</div>
-
 									<!----- Comentários ----->									
 								</div>
 								<div class="modal-footer">
-									<button type="button" class="btn btn-green" data-bs-toggle="collapse" data-bs-target="#collapseExample">Inserir Comentários</button>
-								  	<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+									<button type="button" class="btn btn-green" data-bs-toggle="collapse" data-bs-target="#collapseExample">Insert Comments</button>
+								  	<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
 								</div>
 							</div>
 						</div>
@@ -199,12 +214,12 @@
 					<table class="table">
 						<tbody>
 							<tr>
-								<td class="fw-bold text-nowrap"><i class="bi bi-telephone mx-2"></i> Telefone</td>
-								<td class="text-end"></td>
+								<td class="fw-bold text-nowrap"><i class="bi bi-telephone mx-2"></i> Phone</td>
+								<td class="text-end">+20 2 38277099</td>
 							</tr>
 							<tr>
 								<td class="fw-bold text-nowrap"><i class="bi bi-display mx-2"></i> Site</td>
-								<td class="text-end"><a href="https://brasil.avislac.com" target="_black">https://brasil.avislac.com</a></td>
+								<td class="text-end"><a href="https://www.regus.com/ar-ae/egypt/new-cairo" target="_black">https://www.regus.com/ar-ae/egypt/new-cairo</a></td>
 							</tr>
 						</tbody>
 					</table>
@@ -212,7 +227,7 @@
 				<div class="col">
 				
 					<!--------- Fotos --------->
-					<h4>Frota de carros:</h4>
+					<h4>Car Fleet:</h4>
 					<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 g-4 mb-4">
 						<div class="col">
 							<div class="card">
@@ -232,7 +247,7 @@
 					</div>
 					
 					<!------ Como Chegar ------>
-					<h4>Como Chegar:</h4>
+					<h4>How to get there:</h4>
 					<div id="map">
 					</div>
 					<div id="endereco"> </div>
