@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="../../images/GulliverTravellerMenu.png">
-    <title>Bixiga</title>
+    <title>Wekalet El Ghouri</title>
 
     <!------ Css ------>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -22,8 +22,8 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-blue fixed-top">
             <div class="container-fluid">
-                <a href="../../index.html" class="navbar-brand ps-3">
-                    <img src="../../images/GulliverTravellerMenu.png" alt="Logo Gulliver Traveller">
+                <a href="../index.html" class="navbar-brand ps-3">
+                    <img src="../../images/Helwan travel.png" alt="Logo Gulliver Traveller">
                 </a>
                 <button type="button" class="navbar-toggler ms-auto" data-bs-toggle="collapse"
                     data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
@@ -32,34 +32,39 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-md-center" id="navbarTogglerDemo02">
                     <ul class="navbar-nav">
-                        <li class="nav-item"><a href="../locadora.html" class="nav-link active">Aluguel de carros</a></li>                        
-                        <li class="nav-item"><a href="../cultura.html" class="nav-link">Cultura</a></li>
-                        <li class="nav-item"><a href="../entretenimento.html" class="nav-link">Entretenimento</a></li>
-                        <li class="nav-item"><a href="../restaurantes.html" class="nav-link">Gastronomia</a></li>
-                        <li class="nav-item"><a href="../historia.html" class="nav-link">História</a></li>
-                        <li class="nav-item"><a href="../hoteis.html" class="nav-link">Hotéis</a></li>
-                        <li class="nav-item"><a href="../parques.html" class="nav-link">Parques</a></li>
-                        <li class="nav-item"><a href="../vida_noturna.html" class="nav-link">Vida noturna</a></li>
+                        <li class="nav-item"><a href="../locadora.html" class="nav-link">Car Rental</a></li>                        
+                        <li class="nav-item"><a href="../cultura.html" class="nav-link">Culture</a></li>
+                        <li class="nav-item"><a href="../entretenimento.html" class="nav-link">Enterainment</a></li>
+                        <li class="nav-item"><a href="../restaurantes.html" class="nav-link">Gastronomy</a></li>
+                        <li class="nav-item"><a href="../historia.html" class="nav-link">History</a></li>
+                        <li class="nav-item"><a href="../hoteis.html" class="nav-link">Hotels</a></li>
+                        <li class="nav-item"><a href="../parques.html" class="nav-link">Parks</a></li>
+                        <li class="nav-item"><a href="../vida_noturna.html" class="nav-link">Night life</a></li>
                     </ul>
                 </div>
 
                 <!--- Accessibility --->
                 <div class="nav-item ps-2 pe-2">
                     <div class="btn-group">
-                        <a href="#" class="dropdown-toggle" id="accessibility" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+                        <a href="#" class="dropdown-toggle" id="accessibility" data-bs-toggle="dropdown"
+                            data-bs-auto-close="outside" aria-expanded="false">
                             <i class="fas fa-universal-access"></i>
                         </a>
                         <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="accessibility">
                             <li class="dropdown-item dark-theme">
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" value="" id="chk">
-                                    <label class="form-check-label" for="chk">Contraste</label>
+                                    <label class="form-check-label" for="chk">Contrast</label>
                                 </div>
                             </li>
-                            <li><a href="#" class="dropdown-item" onclick="aumenta()"><i class="bi bi-zoom-in text-end pe-1"></i>Aumenta Fonte</a></li>
-                            <li><a href="#" class="dropdown-item" onclick="diminui()"><i class="bi bi-zoom-out text-end pe-1"></i>Diminui Fonte</a></li>
-                            <li><a href="#" class="dropdown-item" onclick="dislexia()"><i class="bi bi-type pe-1"></i>Fonte Dislexia</a></li>
-                            <li><a href="#" class="dropdown-item" onclick="roboto()"><i class="bi bi-type pe-1"></i>Fonte Padrão</a></li>
+                            <li><a href="#" class="dropdown-item" onclick="aumenta()"><i
+                                        class="bi bi-zoom-in text-end pe-1"></i>Increase Font</a></li>
+                            <li><a href="#" class="dropdown-item" onclick="diminui()"><i
+                                        class="bi bi-zoom-out text-end pe-1"></i>Decrease Font</a></li>
+                            <li><a href="#" class="dropdown-item" onclick="dislexia()"><i
+                                        class="bi bi-type pe-1"></i>Font Dislexya</a></li>
+                            <li><a href="#" class="dropdown-item" onclick="roboto()"><i
+                                        class="bi bi-type pe-1"></i>Standard Font</a></li>
                         </ul>
                     </div>
                 </div>
@@ -86,12 +91,12 @@
                     <li class="nav-item" role="presentation">
                         <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
                             data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
-                            aria-selected="true">Entrar</button>
+                            aria-selected="true">Login</button>
                     </li>
                     <li class="nav-item" role="presentation">
                         <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
                             data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
-                            aria-selected="false">Cadastre-se</button>
+                            aria-selected="false">Register</button>
                     </li>
                 </ul>
                 <div class="tab-content" id="pills-tabContent">
@@ -135,7 +140,7 @@
                                 <label for="floatingPassword">Password</label>
                             </div>
                             <div class="text-end">
-                                <button type="submit" class="btn btn-green w-50">Cadastrar</button>
+                                <button type="submit" class="btn btn-primary w-50">Register</button>
                             </div>
                         </form>
                     </div>
@@ -144,16 +149,17 @@
         </div>
     </header>
 
+
     <!------- Conteúdo ------->
     <main class="main-page container">
         <section class="mb-4">
-            <h1 class="text-center">Bixiga</h1>
+            <h1 class="text-center">Wekalet El Ghouri</h1>
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
-                    <li class="breadcrumb-item"><a href="../destino.html">Destino</a></li>
-                    <li class="breadcrumb-item"><a href="../entretenimento.html">Entretenimento</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Bixiga</li>
+                    <li class="breadcrumb-item"><a href="../destino.html">Destination</a></li>
+                    <li class="breadcrumb-item"><a href="../entretenimento.html">Entertainment</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Wekalet El Ghouri</li>
                 </ol>
             </nav>
         </section>
@@ -162,22 +168,22 @@
 
                 <!------- Descrição ------->
                 <p class="text-left">
-                    O Bixiga é entendido como um dos mais tradicionais bairros da cidade de São Paulo, embora na divisão
-                    administrativa da cidade ele não exista oficialmente como tal. Corresponde aproximadamente à região
-                    localizada entre as ruas Major Diogo, Avenida Nove de Julho, Rua Sílvia e Avenida Brigadeiro Luís
-                    Antônio, no distrito da Bela Vista, embora sua delimitação possa ser motivo de polêmica dependendo
-                    da fonte.
+                    Wekalet El Ghouri is a cultural and architectural landmark located 
+                    in the Al-Azhar district of Cairo. It was originally built in the early 16th century by 
+                    Sultan Al-Ghouri as a caravanserai (Wekala) to house merchants and their goods. 
+                    Over the years, this historic site has been transformed into a vibrant cultural center 
+                    that showcases traditional Egyptian music, dance, and art.
                 </p>
                 <p>
-                    Formado por imigrantes italianos, ganhou importância histórica e turística na capital paulista. A
-                    tradição e a religiosidade italianas, que são fortemente mantidas e as inúmeras cantinas existentes
-                    no bairro são grandes atrativos turísticos. No bairro situa-se a sede da escola de samba Vai-Vai,
-                    que até hoje realiza ensaios pelas ruas do bairro.
+                    The venue is most famous for its Tanoura Dance performances, 
+                    a traditional Sufi dance that combines spirituality with art. The weekly Tanoura shows are a major 
+                    attraction, drawing both locals and tourists. The dancers, dressed in colorful skirts, perform mesmerizing
+                     whirling movements in sync with live music, creating a deeply spiritual and visually captivating experience.
                 </p>
                 <!------ Avaliações ------>
                 <div class="row mb-4">
                     <div class="col-md-6">
-                        <h6>44 avaliações, nota 4.5 estrelas</h6>
+                        <h6>44 reviews, rated 4.5 stars</h6>
                         <div class="card-rate">
                             <i class="bi bi-star-fill text-warning"></i>
                             <i class="bi bi-star-fill text-warning"></i>
@@ -190,7 +196,7 @@
                     <div class="col-md-6">
                         <div class="d-grid gap-2 d-md-flex justify-content-md-end">
                             <button type="button" class="btn btn-green" data-bs-toggle="modal"
-                                data-bs-target="#modal-comentarios">Comentários</button>
+                                data-bs-target="#modal-comentarios">Comments</button>
                         </div>
                     </div>
                 </div>
@@ -201,7 +207,7 @@
                     <div class="modal-dialog modal-lg modal-dialog-scrollable">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title" id="staticBackdropLabel">Todas as avaliações</h5>
+                                <h5 class="modal-title" id="staticBackdropLabel">All reviews</h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal"
                                     aria-label="Close"></button>
                             </div>
@@ -209,76 +215,15 @@
                                 <div class="collapse" id="collapseExample">
                                     <div class="form-floating">
                                         <textarea class="form-control" id="floatingTextarea2"></textarea>
-                                        <label for="floatingTextarea2">Deixe seu comentário...</label>
+                                        <label for="floatingTextarea2">Leave your comment...</label>
                                     </div>
-                                </div>
-
-                                <!----- Comentários ----->
-                                <div class="border p-3 mb-3">
-                                    <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2 g-4 mb-4">
-                                        <div class="col">
-                                            <h5>Italo Santos</h5>
-                                        </div>
-                                        <div class="col text-end">
-                                            <i class="bi bi-star-fill text-warning"></i>
-                                            <i class="bi bi-star-fill text-warning"></i>
-                                            <i class="bi bi-star-fill text-warning"></i>
-                                            <i class="bi bi-star-fill text-warning"></i>
-                                            <i class="bi bi-star-half text-warning"></i>
-                                        </div>
-                                    </div>
-                                    <p>
-                                        Estivemos lá durante a passagem de ano, quando vários locais estavam fechados.
-                                        Mesmo assim, os moradores nos paravam na rua, conversavam conosco e se ofereciam
-                                        para nos ajudar. O bairro é muito lindinho. Quero voltar numa data fora de
-                                        feriado.
-                                    </p>
-                                </div>
-                                <div class="border p-3 mb-3">
-                                    <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2 g-4 mb-4">
-                                        <div class="col">
-                                            <h5>Guilherme Ribas</h5>
-                                        </div>
-                                        <div class="col text-end">
-                                            <i class="bi bi-star-fill text-warning"></i>
-                                            <i class="bi bi-star-fill text-warning"></i>
-                                            <i class="bi bi-star-fill text-warning"></i>
-                                            <i class="bi bi-star text-warning"></i>
-                                            <i class="bi bi-star text-warning"></i>
-                                        </div>
-                                    </div>
-                                    <p>
-                                        Um bairro agradável com ruas com ótimas opções de comidas italianas e lojas com
-                                        roupas sustentáveis. Conhecemos a Casa Jardim Secreto que é uma graça e também o
-                                        Nano Cafés especiais no mesmo espaço. Tem uma linda paróquia e a escadaria que
-                                        remete ao início do desenvolvimento do bairro.
-                                    </p>
-                                </div>
-                                <div class="border p-3 mb-3">
-                                    <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2 g-4 mb-4">
-                                        <div class="col">
-                                            <h5>Douglas Jorge</h5>
-                                        </div>
-                                        <div class="col text-end">
-                                            <i class="bi bi-star-fill text-warning"></i>
-                                            <i class="bi bi-star-fill text-warning"></i>
-                                            <i class="bi bi-star-fill text-warning"></i>
-                                            <i class="bi bi-star-fill text-warning"></i>
-                                            <i class="bi bi-star-fill text-warning"></i>
-                                        </div>
-                                    </div>
-                                    <p>
-                                        É um bairro tradicional que sempre apreciei por causa dos bares e restaurantes
-                                        (principalmente as cantinas e a padaria Italianinha).
-                                        Esse final de semana o bairro me trouxe mais uma brilhante surpresa, o Jazz na
-                                        escadaria do Bixiga. Evento muito bom, gratuito com ótima banda tocando jazz e
-                                        opções de comidas (em barraquinhas).
-                                    </p>
                                 </div>
                             </div>
+                                <!----- Comentários ----->
+                                
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-green" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseExample">Inserir Comentários</button>
+                                    data-bs-target="#collapseExample">Insert comment</button>
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
                             </div>
                         </div>
@@ -288,17 +233,29 @@
                 <!------ Informações ------>
                 <table class="table">
                     <tbody>                         
+                        
                         <tr>
-                            <td class="fw-bold"><i class="bi bi-map mx-2"></i> Região</td>
-                            <td class="text-end">Bela Vista</td>
+                            <td class="fw-bold"><i class="bi bi-currency-dollar mx-2"></i> Price</td>
+                            <td class="text-end">300 EG - 500 EG</td>
                         </tr>
                         <tr>
-                            <td class="fw-bold"><i class="bi bi-currency-dollar mx-2"></i> Preço</td>
-                            <td class="text-end">De acordo com cada estabelecimento</td>
-                        </tr>
-                        <tr>
-                            <td class="fw-bold"><i class="bi bi-clock mx-2"></i> Horário</td>
-                            <td class="text-end">De acordo com cada estabelecimento</td>
+                            <td class="fw-bold"><i class="bi bi-clock mx-2"></i> Timetabele</td>
+                            <td class="text-end text-nowrap">								
+                                <div class="dropdown">
+                                    <div class="dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <strong class="text-success">Open</strong> ⋅ Closes at 22:00
+                                    </div>
+                                    <ul class="dropdown-menu dropdown-menu-end dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                                        <li class="dropdown-item">07:00–15:00, 19:00–22:00 ⋅ Monday</li>
+                                        <li class="dropdown-item">07:00–15:00, 19:00–22:00 ⋅ Tuesday</li>
+                                        <li class="dropdown-item">07:00–15:00, 19:00–22:00 ⋅ Wednesday</li>
+                                        <li class="dropdown-item">07:00–15:00, 19:00–22:30 ⋅ Thursday</li>
+                                        <li class="dropdown-item">07:00–15:00, 19:00–22:00 ⋅ Friday</li>
+                                        <li class="dropdown-item">07:00–21:00 ⋅ Saturday</li>
+                                        <li class="dropdown-item">07:00–15:00, 19:00–22:00 ⋅ Sunday</li>
+                                    </ul>
+                                </div>								
+                            </td>
                         </tr>
                     </tbody>
                 </table>
@@ -307,7 +264,7 @@
             <div class="col">
 
                 <!--------- Fotos --------->
-                <h4>Imagens:</h4>
+                <h4>Photos:</h4>
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 g-4 mb-4">
                     <div class="col">
                         <div class="card">
@@ -332,7 +289,7 @@
                 </div>
 
                 <!------ Como Chegar ------>
-                <h4>Como Chegar:</h4>
+                <h4>How to get there:</h4>
                     <div id="map">
                     </div>
                     <div id="endereco"> </div>
@@ -355,17 +312,17 @@
                         <li class="ms-3"><a href="#" class="text-muted"><i class="bi bi-facebook" width="24"
                                     height="24"></i></a></li>
                     </ul>
-                    <p>Gulliver Traveller | FIAP &copy;2022 - Todos os direitos reservados.</p>
+                    <p>Helwan Travel | FIAP &copy;2024 - All rights reserved.</p>
                 </div>
                 <div class="col">
                     <form method="" action="">
-                        <h5>Assine a nossa newsletter</h5>
+                        <h5>Subscribe to our newsletter</h5>
                         <p>Monthly digest of whats new and exciting from us.</p>
                         <div class="d-flex w-100 gap-2">
                             <label for="newsletter1" class="visually-hidden">Email address</label>
                             <input type="email" class="form-control" id="newsletter1"
-                                placeholder="Digite seu e-mail...">
-                            <input type="submit" class="btn btn-green" value="Inscrever">
+                                placeholder="Enter your email...">
+                            <input type="submit" class="btn btn-green" value="Send">
                         </div>
                     </form>
                 </div>
@@ -381,7 +338,7 @@
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA32PDmcZkbv37_Jb-GU9ZOTu9OW4j1n4o" defer></script>
         <script src="../../js/geolocalizacao.js"></script>
         <script>
-            geolocation(" Bixiga, São Paulo - SP");
+            geolocation("3 Mohamed Abdo St Muhammad 'abduh Street, Cairo, Cairo Governorate, Cairo 11511");
         </script>
     <!---- Accessibility ---->
     <div vw class="enabled">
